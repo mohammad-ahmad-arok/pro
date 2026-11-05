@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة التعريف الشخصية (حل النشاط)</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>أحمد المحمد</h1>
+    <p>طالب Front-End</p>
+    <nav>
+      <a href="#about">من أنا</a>
+      <a href="#skills">مهاراتي</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>من أنا</h2>
+      <p>أنا طالب من <strong>حمص</strong> بتعلم تطوير الويب. هدفي أبني <span class="highlight">موقعي الشخصي</span> وأشتغل بالمجال.</p>
+    </section>
+
+    <section id="skills">
+      <h2>مهاراتي</h2>
+      <table>
+        <thead>
+          <tr><th>المهارة</th><th>المستوى</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>جيد</td></tr>
+          <tr><td>CSS</td><td>قيد التعلم</td></tr>
+          <tr><td>JavaScript</td><td>قريباً</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>تواصل معي</h2>
+      <form action="#" method="get">
+        <label for="name">الاسم</label>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك" required>
+
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="message">رسالتك</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>

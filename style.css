@@ -1,0 +1,113 @@
+/* 1) أول سطر دايماً */
+* {
+  box-sizing: border-box;
+}
+
+/* 2) الأساسيات */
+body {
+  font-family: "Cairo", Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  background-color: #f2f5f7;
+  margin: 0;
+}
+
+/* 3) الهيدر */
+header {
+  background-color: #0b5c6b;
+  color: #f2f5f7;
+  padding: 30px 20px 20px;
+  text-align: center;
+}
+header h1 { margin: 0; }
+header p  { margin: 5px 0 20px; }
+
+/* 4) الـ nav */
+nav a {
+  display: inline-block;
+  color: #f2f5f7;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+/* تحدي: hover */
+nav a:hover {
+  background-color: #14808f;
+}
+
+/* 5) المحتوى بعرض محدد وبالنص */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 6) الأقسام */
+section {
+  background-color: white;
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+section h2 {
+  margin-top: 0;
+  color: #0b5c6b;
+}
+
+/* 7) class للكلمة المهمة */
+.highlight {
+  background-color: #fff3a3;
+  padding: 0 4px;
+}
+
+/* 8) الجدول */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #cfd8dc;
+  text-align: right;
+}
+th {
+  background-color: #0b5c6b;
+  color: white;
+}
+
+/* 9) الفورم */
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 700;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aab7bd;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #0b5c6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #14808f;
+}
+
+/* 10) الفوتر */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
